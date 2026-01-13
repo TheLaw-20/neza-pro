@@ -1,0 +1,206 @@
+.food_cafe-section {
+  width: 100%;
+  background: #fbf3df;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 60px;
+}
+
+.header-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.food_cafe-title {
+ color: rgb(183, 112, 31);
+    background-color: rgb(218, 180, 131);
+    width: 155px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.food_cafe-subtitle {
+  font-size: 2.8rem;
+}
+
+.food_cafe-description {
+  color: #9b9b9b;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* ================= PASTRIES & BREAD ================= */
+
+.pastry_bread-section {
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+.pastry_bread-section i {
+  color: white;
+  background-color: rgb(234, 194, 93);
+  border-radius: 16px;
+  padding: 15px;
+  font-size: 1.8rem;
+}
+
+.pastry_bread-section h2 {
+  font-size: 2.2rem;
+  margin-top: 10px;
+}
+
+.pastry_bread-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  padding: 0 40px;
+}
+
+.pastry_bread-card {
+  background: white;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.image-holder {
+  height: 160px;
+  border-radius: 12px;
+  background: #f6eaf7;
+  margin-bottom: 10px;
+}
+
+.icon-holder {
+  height: 160px;
+  border-radius: 12px;
+  background: #f6eaf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: goldenrod;
+}
+
+.pastry_bread-card h3 {
+  font-size: 1rem;
+}
+
+.pastry_bread-card p {
+  font-size: 0.85rem;
+  color: #9b9b9b;
+}
+
+.image-holder img,
+.img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+/* ================= COFFEE CAFE ================= */
+
+.coffee-cafe-section {
+  text-align: left;
+  padding: 60px 40px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.coffee-cafe-section i {
+  background: #7b4a2f;
+  color: white;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+
+.coffee-cafe-section h2 {
+  font-size: 2rem;
+}
+
+.coffee-cafe-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 0 40px;
+}
+
+.coffee-cafe-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.img-holder {
+  height: 180px;
+  background: #f6eaf7;
+}
+
+.coffee-cafe-card h3 {
+  padding: 10px 15px 0;
+}
+
+.coffee-cafe-card p {
+  padding: 0 15px 15px;
+  font-size: 0.85rem;
+  color: #9b9b9b;
+}
+
+/* ================= MINI EATERY ================= */
+
+.eatery-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 60px 40px 20px;
+}
+
+.eatery-section i {
+  background: goldenrod;
+  color: white;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.eatery-cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 25px;
+  padding: 0 40px;
+}
+
+.eatery-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.eatery-icon-container {
+  background: linear-gradient(to bottom, rgb(151,120,44), rgb(216,176,89));
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.card-title {
+  margin: 15px 0 5px;
+}
+
+.card-description {
+  font-size: 0.85rem;
+  color: #9b9b9b;
+}

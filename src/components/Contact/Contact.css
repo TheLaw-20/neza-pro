@@ -1,0 +1,99 @@
+.stationery-shop {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stationery-shop-section {
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Layout */
+.stationery-shop-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* LEFT */
+.option-wrapper {
+  max-width: 500px;
+}
+
+.stationery-shop-section-subtitle {
+  color: rgb(183, 112, 31);
+    background-color: rgb(218, 180, 131);
+    width: 155px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.stationery-shop-section-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #e4c591;
+}
+
+.stationery-shop-description {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.option-info {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  background: #9e8b62;
+  color: white;
+  padding: 14px;
+  border-radius: 14px;
+}
+
+.option-container {
+  background: #e4c591;
+  padding: 18px;
+  border-radius: 16px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+/* RIGHT GRID */
+.items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.items-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.items-card i {
+  font-size: 2.5rem;
+  color: #9e8b62;
+  margin-bottom: 12px;
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .stationery-shop-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

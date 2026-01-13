@@ -1,0 +1,39 @@
+.picture-section{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 60px 20px;
+}
+
+.picture-section-subtitle{
+    color: rgb(183, 112, 31);
+    background-color: rgb(218, 180, 131);
+    width: 155px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.picture-section-title{
+    font-size: 2.6rem;
+}
+
+.picture-section-description{
+    color: grey;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.img-container{
+    margin-bottom: 20px;
+    display: grid;
+    width: 420px;
+}
+
+.img-container img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}

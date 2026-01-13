@@ -1,0 +1,260 @@
+/* NAVIGATION BAR */
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #6e3f09; /* brown */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+}
+
+.nav-logo i {
+  font-size: 32px;
+  color: #c9964a;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #222;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #c9964a;
+}
+
+.nav-order-now-btn {
+  background-color: #c9964a;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 10px rgb(201 155 74 / 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.nav-order-now-btn:hover {
+  background-color: #a3732a;
+}
+
+/* HERO SECTION */
+
+.nav-section {
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.nav-bg {
+   position: relative;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.nav-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(40, 40, 40, 0.847);
+  z-index: 1;
+}
+
+.nav-content {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+}
+
+.nav-content h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.nav-highlight {
+  color: #e4c591;
+}
+
+.nav-sub {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  opacity: 0.85;
+}
+
+/* BADGES */
+
+.nav-badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f3d9ad;
+  color: #422d07;
+  font-weight: 600;
+  border-radius: 24px;
+  padding: 8px 18px;
+  font-size: 14px;
+  gap: 8px;
+  user-select: none;
+  max-width: max-content;
+  margin-top: 50px;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 0.1);
+}
+
+.nav-badge i {
+  color: #c9964a;
+}
+
+.nav-top-badge {
+  margin-bottom: 10px;
+}
+
+.nav-bottom-badge {
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 15px;
+  opacity: 0.8;
+  background-color: rgba(255 255 255 / 0.15);
+  color: #eee;
+  max-width: 420px;
+}
+
+.nav-badge-bottom-badge{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+/* BUTTONS */
+
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn-explore-btn {
+  background-color: #c9964a;
+  color: #fff;
+  box-shadow: 0 6px 10px rgb(201 155 74 / 0.5);
+}
+
+.nav-btn-explore-btn:hover {
+  background-color: #a3732a;
+}
+
+.nav-btn-order-btn {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+}
+
+.nav-btn-order-btn:hover {
+  background-color: #e66464;
+}
+
+.header-card{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.header-card-item{
+  background-color: #c1a168;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+}
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+  .nav-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .nav-sub {
+    font-size: 16px;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-bg {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 15px 25px;
+    gap: 15px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav-order-now-btn {
+    width: 100%;
+  }
+
+  .nav-bg {
+    padding-left: 20px;
+  }
+
+  .nav-content h1 {
+    font-size: 2rem;
+  }
+}

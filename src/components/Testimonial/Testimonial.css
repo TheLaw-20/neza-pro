@@ -1,0 +1,194 @@
+.order-visit {
+  background: linear-gradient(135deg, #343331, #534555, #4f3c29);
+  padding: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-visit-section {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.order-visit-section-subtitle {
+  color: #e4c591;
+  letter-spacing: 2px;
+}
+
+.order-visit-section-title {
+  color: white;
+  font-size: 2.4rem;
+  margin: 10px 0;
+}
+
+.highlight {
+  color: #e4c591;
+}
+
+.order-visit-description {
+  color: #ddd;
+  max-width: 700px;
+}
+
+/* ===== LAYOUT ===== */
+.order-visit-wrapper {
+  margin-top: 50px;
+
+}
+
+/* LEFT SIDE */
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.icon-container {
+  background-color: #e4c591;
+  color: #343331;
+  padding: 18px;
+  border-radius: 14px;
+  font-size: 1.4rem;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-txts {
+  color: #c5c4c4;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+/* BUTTONS */
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+.view-btn,
+.contact-btn {
+  border: 1px solid white;
+  color: white;
+  padding: 18px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.contact-btn:hover {
+  background-color: #ffffff;
+  color: #343331;
+  transform: translateY(-2px);
+}
+
+.view-btn:hover {
+  background-color: #ffffff;
+  color: #343331;
+  transform: translateY(-2px);
+}
+
+/* HOURS CARD */
+.hours-card {
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 25px;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.hours-card h2 {
+  color: #e4c591;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.dates p {
+  color: #e4c591;
+}
+
+.bottom-message {
+  background-color: #e4c591;
+  color: #343331;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.follow-us {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fb {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* ===== DESKTOP VIEW ===== */
+@media (min-width: 1024px) {
+  .order-visit-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .info-wrapper {
+    display: flex;
+  }
+
+  .visit-order-wrapper {
+    
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .contact-btn,
+  .view-btn {
+    width: auto;
+    flex: 1;
+  }
+}
+

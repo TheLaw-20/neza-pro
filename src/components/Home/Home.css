@@ -1,0 +1,245 @@
+/* Base section */
+.home-section {
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+/* Navbar header */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  position: relative;
+  z-index: 2;
+}
+
+.home-logo {
+  width: 110px;
+}
+
+/* Desktop menu */
+.desktop-menu ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.desktop-menu li {
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.desktop-menu li:hover {
+  color: #ffda7a;
+}
+
+/* Hamburger menu for mobile */
+.hamburger-btn {
+  background: transparent;
+  border: none;
+  display: none; /* hidden on desktop */
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  
+}
+
+.hamburger-btn span {
+  width: 32px;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+.hamburger-btn:hover span {
+  background: #ffda7a;
+}
+
+/* Mobile slide-out menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* completely out of screen */
+  width: 260px;
+  height: 100vh;
+  background: #ffffff;
+  padding: 30px 20px;
+  transition: right 0.4s ease;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* center vertically */
+  align-items: center;     /* center horizontally */
+}
+
+.mobile-menu.open {
+  right: 0; /* slide in */
+}
+
+/* Close button stays at top right inside drawer */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Centered menu links */
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.mobile-menu li {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 16px;
+  cursor: pointer;
+  text-align: left; /* center horizontally */
+  width: 100%;
+  border-bottom: 1.5px solid #eee;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu li:hover {
+  color: #d28b32;
+}
+
+
+/* Backdrop */
+.menu-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 9;
+}
+
+/* Remove underline for ALL menu links */
+.desktop-menu ul li a,
+.mobile-menu ul li a {
+  text-decoration: none;
+}
+
+/* Optional: Also remove underline on hover */
+.desktop-menu ul li a:hover,
+.mobile-menu ul li a:hover {
+  text-decoration: none;
+}
+
+/* Desktop menu text — white */
+.desktop-menu ul li a {
+  color: white;
+}
+
+/* Mobile (hamburger) menu text — brown */
+.mobile-menu ul li a {
+  color: brown;
+}
+
+/* Optional hover effects */
+.desktop-menu ul li a:hover {
+  color: #f5d7a1; /* light cream */
+}
+
+.mobile-menu ul li a:hover {
+  color: #8b4513; /* darker brown */
+}
+
+
+
+/* Centered text */
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.home-content h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Fade animation for text */
+.fade-text {
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  /* Hide desktop links */
+  .desktop-menu {
+    display: none;
+  }
+
+  /* Show hamburger */
+  .hamburger-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-logo {
+    width: 90px;
+  }
+
+  .hamburger-btn span {
+    width: 26px;
+  }
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.close-icon:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
