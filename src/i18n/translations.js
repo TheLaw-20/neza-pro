@@ -7,6 +7,7 @@ export const translations = {
       gallery: "Gallery",
       contact: "Order / Contact",
     },
+    /* ================= HERO ================= */
     hero: {
       badgeTop: "Your Everyday Lifestyle Destination",
       title: "Neza Pro - Your One Stop Shop for",
@@ -116,6 +117,162 @@ export const translations = {
 },
 
  /* ================= FEATURES ================= */
+ features: {
+  header: {
+    title: "FOOD & CAFE",
+    subtitle: {
+      start: "Delicious Food &",
+      highlight: "Premium Coffee",
+    },
+    description:
+      "From morning pastries to hearty meals and artisan coffee – we've got your cravings covered",
+  },
+
+  pastries: {
+    section: "Pastries & Bread",
+    items: {
+      croissant: {
+        title: "Fresh Croissants",
+        desc: "Buttery, flaky, and baked fresh every morning",
+      },
+      buns: {
+        title: "Sweet Buns",
+        desc: "Soft, sweet, and perfect with coffee",
+      },
+      donuts: {
+        title: "Donuts & Cakes",
+        desc: "Indulgent treats for every occasion",
+      },
+      bread: {
+        title: "Artisan Bread",
+        desc: "Fresh-baked loaves daily",
+      },
+    },
+  },
+
+  cafe: {
+    section: "Coffee Cafe",
+    items: {
+      espresso: {
+        title: "Premium Espresso",
+        desc: "Rich, bold, and expertly brewed",
+      },
+      latte: {
+        title: "Specialty Lattes",
+        desc: "Creamy, smooth, and Instagram-worthy",
+      },
+      drinks: {
+        title: "Hot & Cold Drinks",
+        desc: "Teas, smoothies, and refreshing beverages",
+      },
+    },
+  },
+
+  eatery: {
+    section: "Mini Eatery",
+    items: {
+      burgers: {
+        title: "Burgers",
+        desc: "Juicy and delicious",
+      },
+      pizza: {
+        title: "Pizza",
+        desc: "Hot and fresh slices",
+      },
+      chicken: {
+        title: "Chicken",
+        desc: "Crispy and tender",
+      },
+      fries: {
+        title: "Chips / Fries",
+        desc: "Golden and crispy",
+      },
+      sandwiches: {
+        title: "Sandwiches",
+        desc: "Fresh and filling",
+      },
+    },
+  },
+  /* ================= FOOTER ================= */
+  footer: {
+  contact: {
+    subtitle: "GET IN TOUCH NOW",
+    title: {
+      start: "Visit or",
+      highlight: "Contact Us",
+    },
+    description:
+      "We'd love to hear from you! Stop by, give us a call, or send us a message",
+  },
+
+  form: {
+    title: "Send Us a Message",
+    name: "John Doe",
+    email: "john@gmail.com",
+    phone: "+250 (079) 123-4567",
+    message: "Tell us what you're looking for...",
+    send: "Send Message",
+  },
+
+  cards: {
+    calls: {
+      title: "Calls",
+      desc: "Give us a ring for inquiries or orders",
+    },
+    whatsapp: {
+      title: "WhatsApp",
+      desc: "Quick orders and inquiries",
+      action: "Message on WhatsApp",
+    },
+    email: {
+      title: "Email Us",
+      desc: "Send us your questions",
+    },
+    visit: {
+      title: "Visit Our Store",
+      address: "123 Main Street, Your City",
+      hours: "Open Daily: 7AM - 9PM",
+      action: "Get Directions",
+    },
+  },
+
+  brand: {
+    description:
+      "Your one-stop destination for fresh food, premium coffee, quality stationery, and everyday essentials.",
+  },
+
+  links: {
+    title: "Quick Links",
+    home: "Home",
+    about: "About",
+    food: "Food & Cafe",
+    gallery: "Gallery",
+    contact: "Contact Us",
+  },
+
+  services: {
+    title: "Our Services",
+    pastries: "Pastries & Bread",
+    coffee: "Coffee Cafe",
+    eatery: "Mini Eatery",
+    stationery: "Stationery Shop",
+    market: "Mini Supermarket",
+  },
+
+  hours: {
+    title: "Business Hours",
+    weekdays: "Monday – Friday: 7AM – 8PM",
+    saturday: "Saturday: 7AM – 9PM",
+    sunday: "Sunday: 8AM – 7PM",
+    notice: "Open Daily",
+  },
+
+  copyright:
+    "© 2025 Neza Pro. All rights reserved.",
+},
+    /* ================= GALLERY ================= */
+    
+},
 
   },
 
@@ -236,5 +393,162 @@ export const translations = {
   },
 },
     /* ================= FEATURES ================= */
-  }
+    features: {
+  header: {
+    title: "IBIRYO N’IKAWA",
+    subtitle: {
+      start: "Ibyokurya Biryoshye &",
+      highlight: "Ikawa Nziza",
+    },
+    description:
+      "Uhereye ku byokurya byo mu gitondo kugeza ku mafunguro akomeye n’ikawa yihariye",
+  },
+
+  pastries: {
+    section: "Imigati n’Ibyokurya",
+    items: {
+      croissant: {
+        title: "Croissants Zishyushye",
+        desc: "Zirimo amavuta meza kandi zitekwa buri gitondo",
+      },
+      buns: {
+        title: "Imigati Iryoshye",
+        desc: "Yoroshye kandi ihuza neza n’ikawa",
+      },
+      donuts: {
+        title: "Donuts & Keke",
+        desc: "Ibyokurya byiza ku bihe byose",
+      },
+      bread: {
+        title: "Imigati Idasanzwe",
+        desc: "Imigati itekwa buri munsi",
+      },
+    },
+  },
+
+  cafe: {
+    section: "Ikawa",
+    items: {
+      espresso: {
+        title: "Espresso Nziza",
+        desc: "Ifite uburyohe bukomeye kandi iteguye neza",
+      },
+      latte: {
+        title: "Latte Zihariye",
+        desc: "Zoroshye kandi zigaragara neza",
+      },
+      drinks: {
+        title: "Ibinyobwa Bishyushye n’Ibikonje",
+        desc: "Icyayi, smoothies n’ibinyobwa bisusurutsa",
+      },
+    },
+  },
+
+  eatery: {
+    section: "Ibyokurya Byihuse",
+    items: {
+      burgers: {
+        title: "Burgers",
+        desc: "Ziryoshye kandi zuzura",
+      },
+      pizza: {
+        title: "Pizza",
+        desc: "Zishyushye kandi nshya",
+      },
+      chicken: {
+        title: "Inkoko",
+        desc: "Yoroshye kandi iryoshye",
+      },
+      fries: {
+        title: "Ifiriti",
+        desc: "Ziryoshye kandi zokeje neza",
+      },
+      sandwiches: {
+        title: "Sandwiches",
+        desc: "Nshya kandi zuzura",
+      },
+    },
+  },
+},
+    /* ================= FOOTER ================= */
+    footer: {
+  contact: {
+    subtitle: "TWANDIKIRE NONAHA",
+    title: {
+      start: "Sura cyangwa",
+      highlight: "Twandikire",
+    },
+    description:
+      "Twishimira kukumva! Sura iduka ryacu, duhamagare cyangwa utwandikire",
+  },
+
+  form: {
+    title: "Twandikire Ubutumwa",
+    name: "Izina ryawe",
+    email: "email@example.com",
+    phone: "+250 (079) 123-4567",
+    message: "Tubwire icyo ukeneye...",
+    send: "Ohereza Ubutumwa",
+  },
+
+  cards: {
+    calls: {
+      title: "Hamagara",
+      desc: "Hamagara kubaza cyangwa gutumiza",
+    },
+    whatsapp: {
+      title: "WhatsApp",
+      desc: "Gutumiza vuba",
+      action: "Andikira kuri WhatsApp",
+    },
+    email: {
+      title: "Email",
+      desc: "Twandikire ibibazo byawe",
+    },
+    visit: {
+      title: "Sura Iduka Ryacu",
+      address: "123 Umuhanda Mukuru",
+      hours: "Dukora buri munsi: 7AM - 9PM",
+      action: "Erekwa Aho",
+    },
+  },
+
+  brand: {
+    description:
+      "Ahantu hamwe h’ibiryo bishya, ikawa nziza, ibikoresho by’ishuri n’ibyo ukoresha buri munsi.",
+  },
+
+  links: {
+    title: "Amasano Yihuse",
+    home: "Ahabanza",
+    about: "Ibyerekeye Twebwe",
+    food: "Ibiryo & Café",
+    gallery: "Amafoto",
+    contact: "Twandikire",
+  },
+
+  services: {
+    title: "Serivisi Zacu",
+    pastries: "Imigati & Udukoryo",
+    coffee: "Café",
+    eatery: "Resitora Nto",
+    stationery: "Ibikoresho by’Ishuri",
+    market: "Isoko Nto",
+  },
+
+  hours: {
+    title: "Amasaha Dukoreramo",
+    weekdays: "Kuwa mbere – Kuwa gatanu: 7AM – 8PM",
+    saturday: "Kuwa gatandatu: 7AM – 9PM",
+    sunday: "Kucyumweru: 8AM – 7PM",
+    notice: "Dukora Buri Munsi",
+  },
+
+  copyright:
+    "© 2025 Neza Pro. Uburenganzira bwose burabitswe.",
+},
+
+/* ================= GALLERY ================= */
+
+  },
 };
